@@ -209,7 +209,7 @@ describe('ConvertEnumsToJsCommand', function () {
             ->artisan(ConvertEnumToJsCommand::class)
             ->assertSuccessful()
             ->expectsOutput(
-                "Failed to convert Hackel\EnumToJs\Tests\Enums\Color: test error"
+                "Failed to convert Hackel\EnumToJs\Tests\Enums\Color: test error",
             );
     });
 
@@ -235,7 +235,7 @@ describe('ConvertEnumsToJsCommand', function () {
             ->artisan(ConvertEnumToJsCommand::class)
             ->assertSuccessful()
             ->expectsOutput(
-                "Failed to convert Hackel\EnumToJs\Tests\Enums\Color: test error"
+                "Failed to convert Hackel\EnumToJs\Tests\Enums\Color: test error",
             );
     });
 });

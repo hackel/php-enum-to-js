@@ -8,7 +8,6 @@ use Hackel\EnumToJs\Contracts\Filesystem;
 use Hackel\EnumToJs\Contracts\Writer as WriterContract;
 use Hackel\EnumToJs\Exceptions\FileAlreadyExistsException;
 use Illuminate\Contracts\Foundation\Application;
-use Illuminate\Support\Str;
 
 class Writer implements WriterContract
 {

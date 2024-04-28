@@ -24,7 +24,7 @@ describe('EnumToJson', function () {
                 "GREEN": "green",
                 "BLUE": "blue"
             }
-            JSON
+            JSON,
         );
     });
 
@@ -42,7 +42,7 @@ describe('EnumToJson', function () {
                 "TWO": 2,
                 "THREE": 3
             }
-            JSON
+            JSON,
         );
     });
 
@@ -61,7 +61,7 @@ describe('EnumToJson', function () {
                 "Clubs",
                 "Spades"
             ]
-            JSON
+            JSON,
         );
     });
 });

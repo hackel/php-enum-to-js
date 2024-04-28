@@ -79,7 +79,7 @@ final class ConvertEnumToJsCommand extends Command implements PromptsForMissingI
                 $this->newLine();
                 /** @var class-string<UnitEnum> $enum */
                 $this->convertEnumToJs($enum, $source, $dest);
-            }
+            },
         );
 
         $this->newLine()->info('Successfully converted ' . $enums->count() . ' Enums to JavaScript objects.');
